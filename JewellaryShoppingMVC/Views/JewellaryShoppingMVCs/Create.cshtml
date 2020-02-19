@@ -1,0 +1,39 @@
+﻿@model JewellaryShoppingMVC.Entity.UserEntity
+
+@{
+    ViewBag.Title = "Create";
+}
+<h1>Sign up</h1>
+<table>
+    <tr>
+        <td> User ID</td>
+        <td style="margin-top:3%;height:10%">@Html.TextBox("userId")</td>
+    </tr>
+    <tr>
+       <td>Mail ID </td>
+        <td style="margin-top:3%;height:10%">@Html.TextBox("mailId")</td>
+    </tr>
+    <tr>
+        <td>Phone number</td>
+        <td>@Html.TextBox("phoneNumber") </td>            
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td style="margin-top:3%;height:10%">@Html.TextBox("password")</td>
+    </tr>
+    <tr>
+        <td>City</td>
+        <td style="margin-top:3%;height:10%">@Html.EnumDropDownListFor(model=>model.city,"Select City")</td   >
+    </tr>
+    <tr>
+        <td>Role</td>
+        <td>@Html.RadioButtonFor(model=>model.role,"User") User
+             @Html.RadioButtonFor(model=>model.role,"Admin") Admin
+        </td>
+    </tr>
+    <tr>
+        <td>
+           <input type="submit" runat="server"/>
+         </td>
+    </tr>
+</table>

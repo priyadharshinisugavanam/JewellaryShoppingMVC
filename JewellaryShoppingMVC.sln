@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewellaryShoppingMVC", "JewellaryShoppingMVC\JewellaryShoppingMVC.csproj", "{40CDAAEF-0B68-4A7F-A499-F565B04D6A34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewellaryShoppingMVC.Entity", "JewellaryShoppingMVC.Entity\JewellaryShoppingMVC.Entity.csproj", "{F6082330-5CE5-4178-AB6A-DB25C3E0FD84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40CDAAEF-0B68-4A7F-A499-F565B04D6A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40CDAAEF-0B68-4A7F-A499-F565B04D6A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40CDAAEF-0B68-4A7F-A499-F565B04D6A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40CDAAEF-0B68-4A7F-A499-F565B04D6A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6082330-5CE5-4178-AB6A-DB25C3E0FD84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6082330-5CE5-4178-AB6A-DB25C3E0FD84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6082330-5CE5-4178-AB6A-DB25C3E0FD84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6082330-5CE5-4178-AB6A-DB25C3E0FD84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D46B582-5E33-4919-A44C-E1CB3A40ACAE}
+	EndGlobalSection
+EndGlobal

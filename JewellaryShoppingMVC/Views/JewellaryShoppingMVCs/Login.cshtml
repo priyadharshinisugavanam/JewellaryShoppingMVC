@@ -1,0 +1,20 @@
+﻿@model JewellaryShoppingMVC.Entity.UserEntity
+
+@{
+    ViewBag.Title = "Login";
+}
+<h1>Login</h1>
+<table>
+    <tr>
+        <td style="margin-top:3%;height:10%">User ID</td>
+        <td>@Html.TextBox("UserId")</td>
+    </tr>
+    <tr>
+        <td style="margin-top:3%;height:10%">Password</tdstyle="margin-top:3%;height:10%">
+        <td>@Html.TextBox("password")</td>
+    </tr>
+    <tr>
+        <td><input type="submit" runat="server"/></td>
+    </tr>
+</table>
+
